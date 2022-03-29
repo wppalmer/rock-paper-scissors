@@ -9,25 +9,28 @@
 </head>
 <body>
     <nav>
-        <p>?</p>
-        <p>Reset</p>
+        <button class="btn-info">❓</button>
+        <button class="btn-reset">Reset</button>
     </nav>
     <h1>Rock, Paper, or Scissors?</h1>
+    <div class="player-com">
     <div class="board container" id="human">
         <h3>Choose your weapon:</h3>
-        <div class="rock"> <input type="image" id="rock" src="#">
+        <br>
+        <div class="rock"> <button id="rock">🪨</button>
         </div>
-        <div class="paper"><input type="image" id="paper" src="#">
+        <div class="paper"> <button id="paper">🧻</button>
         </div>
-        <div class="scissors"><input type="image" id="scissors" src="#">
+        <div class="scissors"> <button id="scissors">✂️</button>
         </div>
     </div>
-    <div>
+    <div class="board" id="computer">
         <h3>Your opponents choice:</h3>
         <div class="rock"></div>
         <div class="paper"></div>
         <div class="scissors"></div>
-    </div class="board" id="computer">
+    </div>
+    </div>
 <script src="game.js"></script>
 <script src="menu.js"></script>
 </body>

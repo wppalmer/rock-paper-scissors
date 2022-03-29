@@ -9,9 +9,26 @@ nav {
     background-color: #f5eedcb7;
     padding-top: 10px;
     height: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+body {
+    text-align: center;
 }
 
 /***********CLASSES***********/
-
+.player-com {
+    display: flex;
+    justify-content: space-around;
+}
+.board {
+    background-color: #f5eedcb7;
+    border: black solid 2px;
+    display: flex;
+    
+    
+}
 
 /***********IDS***********/
