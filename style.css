@@ -26,23 +26,38 @@ footer {
 /***********CLASSES***********/
 .player-com {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .board {
     background-color: #f5eedcb7;
     border: black solid 2px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+   
+    justify-content: space-between;
     height:250px;
     width: 250px;
     
 }
+.buttons {
+    display: flex;
+    padding: 5px;
+}
 
+.btn-info {
+    margin-right: 15px;
+}
+.btn-reset {
+    margin-right: 15px;
+}
 /***********IDS***********/
-#rock, 
-#paper,
-#scissors {
+#rock1, 
+#paper1,
+#scissors1,
+#rock2, 
+#paper2,
+#scissors2 {
     height: 55px;
     width: 55px;
+    font-size: 25px;
+   
 }
