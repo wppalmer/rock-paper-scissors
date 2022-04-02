@@ -30,6 +30,10 @@ playerRock();
 playerPaper();
 playerScissors();
 
+compChoice = function() {
+   
+}
+
 //Game Comparison
 
 //Display Message
