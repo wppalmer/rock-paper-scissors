@@ -1,63 +1,59 @@
 /***********ELEMENTS***********/
 body {
-    background-color: #C0D8C0;
-    margin: 0;
-    padding-top: 0;
+  background-color: #c0d8c0;
+  margin: 0;
+  padding-top: 0;
 }
 
 nav {
-    background-color: #f5eedcb7;
-    padding-top: 10px;
-    height: 35px;
-    display: flex;
-    flex-direction: row-reverse;
-    
-    
+  background-color: #f5eedcb7;
+  padding-top: 10px;
+  height: 35px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 body {
-    text-align: center;
+  text-align: center;
 }
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 /***********CLASSES***********/
 .player-com {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 .board {
-    background-color: #f5eedcb7;
-    border: black solid 2px;
-    display: flex;
-   
-    justify-content: space-between;
-    height:250px;
-    width: 250px;
-    
+  background-color: #f5eedcb7;
+  border: black solid 2px;
+  display: flex;
+
+  justify-content: center;
+  height: 250px;
+  width: 250px;
 }
 .buttons {
-    display: flex;
-    padding: 5px;
+  display: flex;
+  padding: 5px;
 }
 
 .btn-info {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 .btn-reset {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 /***********IDS***********/
-#rock1, 
+#rock1,
 #paper1,
 #scissors1,
-#rock2, 
+#rock2,
 #paper2,
 #scissors2 {
-    height: 55px;
-    width: 55px;
-    font-size: 25px;
-   
+  height: 55px;
+  width: 55px;
+  font-size: 25px;
 }
