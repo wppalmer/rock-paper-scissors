@@ -30,7 +30,7 @@ footer {
   background-color: #f5eedcb7;
   border: black solid 2px;
   display: flex;
-
+  flex-direction: column;
   justify-content: center;
   height: 250px;
   width: 250px;
