@@ -5,6 +5,7 @@ const rock = document.getElementById('rock1');
 const paper = document.getElementById('paper1');
 const scissors = document.getElementById('scissors1');
 
+
 let playerChoice, compChoice, scores, currentScore;
 
 //Player Selection
