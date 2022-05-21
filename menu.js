@@ -1,8 +1,9 @@
 'use strict'
 
 const reset = document.getElementById('btn-reset');
-let action
+const info = document.getElementById('btn-info');
 
+// Game Reset
 const gameReset = function() {
     reset.addEventListener('click', function(){
         console.log('Reset button was hit')
@@ -10,3 +11,12 @@ const gameReset = function() {
 }
 
 gameReset()
+
+// Game Info
+const gameInfo = function() {
+    info.addEventListener('click', function(){
+        console.log('Info button was hit')
+    })
+}
+
+gameInfo()
